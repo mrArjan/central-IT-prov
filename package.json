@@ -1,0 +1,21 @@
+{
+  "name": "central-it-operations-hub",
+  "version": "1.0.0",
+  "description": "Enterprise IT Management and Hardware Inventory Portal",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.119.0",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.2",
+    "express-rate-limit": "^7.5.1",
+    "express-session": "^1.19.0",
+    "multer": "^2.2.0",
+    "sqlite3": "^5.1.7",
+    "xlsx": "^0.18.5"
+  }
+}
